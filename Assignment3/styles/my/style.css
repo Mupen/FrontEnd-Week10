@@ -1,0 +1,99 @@
+body {
+
+}
+
+h1 {
+}
+
+p {
+}
+
+/*
+
+#skill-bar-wrapper {
+  font-size: 18px;
+} 
+
+*/
+
+.skillbar-container {
+  position:relative;
+  display:block;
+  width: 100%;
+  background-color: green;
+  background-color: rgba(255,255,255,.1);
+  height:35px;
+  height:5px;
+}
+
+.skillbar-background {
+  background: green;
+}
+
+.skills {
+  height:35px;
+  height:5px;
+  width:0px;
+}
+
+.skill-bar-text-left {
+  text-align: left !important;
+}
+
+@media (max-width: 676px) {
+  article {
+    margin-top: 5vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .row {
+    max-width: 100%;
+    margin-left: 0px !important;
+  }
+}
+
+
+p {
+
+}
+
+.img-showcase {
+  width: 90%;
+  height: 90%;
+  float: left;
+  margin: 1.66%;
+  opacity: 0.8;
+  transition: 200ms;
+}
+
+.img-showcase:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 10px black;
+  transform: scale(1.1);
+}
+
+h1 {
+  margin: 1.66%;
+}
+
+
+
+
+
+.showcase {
+
+}
+
+.knowledged {
+  font-weight: bold;
+}
+
+.contact {
+
+}
+

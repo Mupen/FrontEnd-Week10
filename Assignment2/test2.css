@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.header, .content, .footer {
+  display: table-row;
+}
+.header, .footer {
+  background: silver;
+}
+.inner {
+  display: table-cell;
+}
+.content .inner {
+  height: 100%;
+  position: relative;
+  background: pink;
+}
+.scrollable {
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  overflow: auto;
+}

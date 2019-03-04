@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- My CSS Styles -->
+    <link rel="stylesheet" href="styles/my/style.css" />
+
+    <!-- minified bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
+
+    <!-- minified bootstrap JavaScript -->
+    <script src="script/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- minified jQuery library -->
+    <script src="script/js/jquery/jquery.min.js"></script>
+
+    <!-- minified bootstrap JavaScript -->
+    <script src="script/js/my/script.js"></script>
+
+    <!-- minified Popper JS -->
+    <script src="script/js/popper/popper.min.js"></script>
+
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>My First Bootstrap 4 Page</h1>
+            <p>Resize this responsive page to see the effect!</p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#container">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#knowledged">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="container" class="container col-sm-12" style="margin-top:30px">
+        <section class="showcase row col-sm-12">
+            <article class="col-sm-4"><img class="img-showcase" src="Images/frontend-developer.png"></article>
+            <article class="col-sm-4"><img class="img-showcase" src="Images/git-flow.png"></article>
+            <article class="col-sm-4"><img class="img-showcase" src="Images/backend-developer.png"></article>
+        </section>
+
+        <section id="knowledged" class="knowledged row col-sm-12">
+            <article class="col-sm-12" style="margin-top:30px">
+                <section class="container content-section text-center" style="margin-top:15px">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>Skills</h1>
+                            <div class="text-left">
+                                <p>
+                                    My skills is based on what is in demand in the job market.
+
+                                    I have already studied agile project methodology, Html5, Css3, Php, MySQL and
+                                        
+                                    Java specializing in mobile system development for apps for Android and web design.
+                                    <br><br></p>
+                                <p>
+                                    Currently I study. Java, Javascript and MySQL
+                                    With a focus within more complex system development.
+                                    <br><br></p>
+                                <p>
+                                    I also have some knowledge with Windows server with Active directory and manage simple web servers with Xampp and on Debian and widnwos 7 & 10.
+                                    <br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container content-section text-center" style="margin-top:15px">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="skill-bar-wrapper">
+                                <h1>Merits</h1>
+                                <div class="skill-bar-text-left">
+
+                                    <!-- Java -->
+                                    Java<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- JavaScript -->
+                                    JavaScript<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Mysql -->
+                                    Mysql<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Php -->
+                                    Php<span style="float:right;">25%</span>
+                                    <div class="skillbar-container clearfix" data-percent="25%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- HTML5 -->
+                                    HTML5<span style="float:right;">75%</span>
+                                    <div class="skillbar-container clearfix" data-percent="75%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Css -->
+                                    Css<span style="float:right;">45%</span>
+                                    <div class="skillbar-container clearfix" data-percent="45%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- jQuery -->
+                                    jQuery<span style="float:right;">10%</span>
+                                    <div class="skillbar-container clearfix" data-percent="10%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- jQuery -->
+                                    Ruby on rails<span style="float:right;">7%</span>
+                                    <div class="skillbar-container clearfix" data-percent="7%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Git -->
+                                    Git<span style="float:right;">5%</span>
+                                    <div class="skillbar-container clearfix" data-percent="5%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </section>
+
+        <section id="about" class="about row col-sm-12">
+            <article class="col-sm-4">
+                <h2>About Me</h2>
+                <h5>Photo of me:</h5>
+                <article class="col-sm-4"><img src="Images/Daniel-Henriksen.jpg"></article>
+                <p>24-year old programer with an addiction of pepsi max soda.</p>
+                <h3>Some Links</h3>
+                <p>Lorem ipsum dolor sit ame.</p>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item"><a class="nav-link active" href="#">Linkdin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Github</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Codepen</a></li>
+                </ul>
+                <hr class="d-sm-none">
+            </article>
+
+            <article class="col-sm-8">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </article>
+        </section>
+
+        <section id="contact" class="contact row col-sm-12">
+                <article class="col-sm-4">
+                    <h2>About Me</h2>
+                    <h5>Photo of me:</h5>
+                    <article class="col-sm-4"><img src="Images/Daniel-Henriksen.jpg"></article>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                    <h3>Some Links</h3>
+                    <p>Lorem ipsum dolor sit ame.</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a class="nav-link active" href="#">Linkdin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Github</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Codepen</a></li>
+                        <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+                    </ul>
+                    <hr class="d-sm-none">
+                </article>
+    
+                <article class="col-sm-8">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Dec 7, 2017</h5>
+                    <div class="fakeimg">Fake Image</div>
+    
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.</p>
+                </article>
+        </section>
+    </main>
+
+    <footer class="jumbotron text-center" style="margin-bottom:0">
+        <p>Footer</p>
+    </footer>
+
+</body>
+
+</html>
