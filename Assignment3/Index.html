@@ -1,315 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Bootstrap 4 Website Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
 
-    <!-- My CSS Styles -->
-    <link rel="stylesheet" href="styles/my/style.css" />
+        <title>Bootstrap 4 Website Example</title>
 
-    <!-- minified bootstrap CSS -->
-    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- minified jQuery library -->
-    <script src="script/js/jquery/jquery.min.js"></script>
+        <!-- My CSS Styles -->
+        <link rel="stylesheet" href="styles/my/style.css" />
 
-    <!-- minified bootstrap JavaScript -->
-    <script src="script/js/bootstrap/bootstrap.min.js"></script>
+        <!-- minified bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
 
+        <!-- minified jQuery library -->
+        <script src="script/js/jquery/jquery.min.js"></script>
 
-    <!-- minified bootstrap JavaScript -->
-    <script src="script/js/my/script.js"></script>
+        <!-- minified bootstrap JavaScript -->
+        <script src="script/js/bootstrap/bootstrap.min.js"></script>
 
-    <!-- minified Popper JS -->
-    <script src="script/js/popper/popper.min.js"></script>
+        <!-- minified bootstrap JavaScript -->
+        <script src="script/js/my/script.js"></script>
 
-    <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
-    </style>
-</head>
+        <!-- minified Popper JS -->
+        <script src="script/js/popper/popper.min.js"></script>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#container">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#knowledged">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <style>
+            .fakeimg {
+                height: 200px;
+                background: #aaa;
+            }
+        </style>
 
-    <main id="container" class="container col-sm-12" style="margin-top:30px">
-        <section class="showcase row col-sm-12">
-            <hr class="col-sm-12">
-            <h2 class="col-sm-12">Home</h2>
-            <hr class="col-sm-12">
-            <article class="col-sm-4"><img class="img-showcase" src="Images/frontend-developer.png"></article>
-            <article class="col-sm-4"><img class="img-showcase" src="Images/git-flow.png"></article>
-            <article class="col-sm-4"><img class="img-showcase" src="Images/backend-developer.png"></article>
-        </section>
+    </head>
 
-        <section id="knowledged" class="knowledged row col-sm-12">
-            <article class="col-sm-12" style="margin-top:30px">
-                
-                <div class="container">
-                    <h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="carousel slide multi-item-carousel" id="theCarousel">
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/f44336/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/e91e63/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/9c27b0/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/673ab7/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/4caf50/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/8bc34a/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-                                    <!-- add  more items here -->
-                                    <!-- Example item start:  -->
-
-                                    <div class="item">
-                                        <div class="col-xs-4"><a href="#1"><img
-                                                    src="http://placehold.it/300/8bc34a/000000"
-                                                    class="img-responsive"></a></div>
-                                    </div>
-
-                                    <!--  Example item end -->
-                                </div>
-                                <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i
-                                        class="glyphicon glyphicon-chevron-left"></i></a>
-                                <a class="right carousel-control" href="#theCarousel" data-slide="next"><i
-                                        class="glyphicon glyphicon-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+    <body>
+        
+        <header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#container">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#knowledged">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
+            </nav>
+        </header>
 
-                <section class="container content-section text-center" style="margin-top:15px">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <hr class="col-sm-12">
-                            <h2 class="col-sm-12">My Skills</h2>
-                            <hr class="col-sm-12">
-                            <div class="text-left">
-                                <p>
-                                    My skills is based on what is in demand in the job market.
+        <main id="container" class="container col-sm-12" style="margin-top:30px">
+            <section class="showcase row col-sm-12">
+                <hr class="col-sm-12">
+                <h2 class="col-sm-12">Home</h2>
+                <hr class="col-sm-12">
+                <article class="col-sm-4"><img class="img-showcase" src="Images/frontend-developer.png"></article>
+                <article class="col-sm-4"><img class="img-showcase" src="Images/git-flow.png"></article>
+                <article class="col-sm-4"><img class="img-showcase" src="Images/backend-developer.png"></article>
+            </section>
 
-                                    I have already studied agile project methodology, Html5, Css3, Php, MySQL and
+            <section id="knowledged" class="knowledged row col-sm-12">
+                <article class="col-sm-12" style="margin-top:30px">
+                    
+                    <div class="container">
+                        <h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="carousel slide multi-item-carousel" id="theCarousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/f44336/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/e91e63/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/9c27b0/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/673ab7/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/4caf50/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/8bc34a/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
+                                        <!-- add  more items here -->
+                                        <!-- Example item start:  -->
 
-                                    Java specializing in mobile system development for apps for Android and web design.
-                                    <br><br></p>
-                                <p>
-                                    Currently I study. Java, Javascript and MySQL
-                                    With a focus within more complex system development.
-                                    <br><br></p>
-                                <p>
-                                    I also have some knowledge with Windows server with Active directory and manage
-                                    simple web servers with Xampp and on Debian and widnwos 7 & 10.
-                                    <br><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                        <div class="item">
+                                            <div class="col-xs-4"><a href="#1"><img
+                                                        src="http://placehold.it/300/8bc34a/000000"
+                                                        class="img-responsive"></a></div>
+                                        </div>
 
-                <section class="container content-section text-center" style="margin-top:15px">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div id="skill-bar-wrapper">
-                                <hr class="col-sm-12">
-                                <h2 class="col-sm-12">My languages</h2>
-                                <hr class="col-sm-12">
-                                <div class="skill-bar-text-left">
-
-                                    <!-- Java -->
-                                    Java<span style="float:right;">30%</span>
-                                    <div class="skillbar-container clearfix" data-percent="30%">
-                                        <div class="skills skillbar-background"></div>
+                                        <!--  Example item end -->
                                     </div>
-
-                                    <!-- JavaScript -->
-                                    JavaScript<span style="float:right;">30%</span>
-                                    <div class="skillbar-container clearfix" data-percent="30%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- Mysql -->
-                                    Mysql<span style="float:right;">30%</span>
-                                    <div class="skillbar-container clearfix" data-percent="30%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- Php -->
-                                    Php<span style="float:right;">25%</span>
-                                    <div class="skillbar-container clearfix" data-percent="25%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- HTML5 -->
-                                    HTML5<span style="float:right;">75%</span>
-                                    <div class="skillbar-container clearfix" data-percent="75%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- Css -->
-                                    Css<span style="float:right;">45%</span>
-                                    <div class="skillbar-container clearfix" data-percent="45%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- jQuery -->
-                                    jQuery<span style="float:right;">10%</span>
-                                    <div class="skillbar-container clearfix" data-percent="10%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- jQuery -->
-                                    Ruby on rails<span style="float:right;">7%</span>
-                                    <div class="skillbar-container clearfix" data-percent="7%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
-                                    <!-- Git -->
-                                    Git<span style="float:right;">5%</span>
-                                    <div class="skillbar-container clearfix" data-percent="5%">
-                                        <div class="skills skillbar-background"></div>
-                                    </div>
-
+                                    <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i
+                                            class="glyphicon glyphicon-chevron-left"></i></a>
+                                    <a class="right carousel-control" href="#theCarousel" data-slide="next"><i
+                                            class="glyphicon glyphicon-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </article>
-        </section>
 
-        <section id="about" class="about row col-sm-12">
-            <hr class="col-sm-12">
-            <h2 class="col-sm-12">About Me</h2>
-            <hr class="col-sm-12">
-            <article class="col-sm-4">
-                <h5 class="col-sm-12">Photo:</h5>
-                <article class="col-sm-12"><img class="col-sm-12" src="Images/Daniel-Henriksen.jpg"></article>
-                <p class="col-sm-12">24-year old programer with an addiction of pepsi max soda.</p>
-                <h3 class="col-sm-12">Some Links</h3>
-                <p class="col-sm-12">Lorem ipsum dolor sit ame.</p>
-                <ul class="nav nav-pills flex-column col-sm-12">
-                    <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com">Linkdin</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/">Github</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://codepen.io/">Codepen</a></li>
-                </ul>
-                <hr class="d-sm-none">
-            </article>
+                    <section class="container content-section text-center" style="margin-top:15px">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <hr class="col-sm-12">
+                                <h2 class="col-sm-12">My Skills</h2>
+                                <hr class="col-sm-12">
+                                <div class="text-left">
+                                    <p>
+                                        My skills is based on what is in demand in the job market.
 
-            <article class="col-sm-8">
-                <h5>Linkedin</h5>
-                <p>LinkedIn is a business and employment-oriented service that operates via websites and mobile apps.
-                    Founded on December 28, 2002,[4] and launched on May 5, 2003,[5] it is mainly used for professional
-                    networking, including employers posting jobs and job seekers posting their CVs.</p>
-                <p>As of October 2018, LinkedIn had 590 million registered members in 200 countries, of which more than
-                    250 million are active.</p>
-                <h5>Company overview</h5>
-                <p>LinkedIn is headquartered in Sunnyvale, California, with offices in Omaha, Chicago, Los Angeles, New
-                    York, San Francisco, Washington, D.C., São Paulo, London, Dublin, Amsterdam, Milan, Paris, Munich,
-                    Madrid, Stockholm, Singapore, Hong Kong, China, Japan, Australia, Canada, India and Dubai. In
-                    January 2016, the company had around 9,200 employees.</p>
-                <h5>Founding</h5>
-                <p>he company was founded in December 2002 by Reid Hoffman and founding team members from PayPal and
-                    Socialnet.com (Allen Blue, Eric Ly, Jean-Luc Vaillant, Lee Hower, Konstantin Guericke, Stephen
-                    Beitzel, David Eves, Ian McNish, Yan Pujante, Chris Saccheri).[19] In late 2003, Sequoia Capital led
-                    the Series A investment in the company.[20] In August 2004, LinkedIn reached 1 million users.[21] In
-                    March 2006, LinkedIn achieved its first month of profitability.</p>
-                <h5>User reaction</h5>
-                <p>Following the launch of the new interface, some users, including blogger Zubair Abbas, complained
-                    about the missing features which were there in the older version, slowness and bugs in the UI.[129]
-                    The issues were faced by both free and premium users, and with both the desktop version and the
-                    mobile version of the site.</p>
-                <p></p>
-            </article>
-        </section>
+                                        I have already studied agile project methodology, Html5, Css3, Php, MySQL and
 
-        <section id="contact" class="contact row col-sm-12">
-            <hr class="col-sm-12">
-            <h2 class="col-sm-12">Contact Me</h2>
-            <hr class="col-sm-12">
-            <form class="contact-form col-sm-8">
-                <div class="form-group">
-                    <label class="control-label col-sm-6" for="fname">First Name:</label>
-                    <div class="col-sm-12">
-                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-6" for="lname">Last Name:</label>
-                    <div class="col-sm-12">
-                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-6" for="email">Email:</label>
-                    <div class="col-sm-12">
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-6" for="comment">Comment:</label>
-                    <div class="col-sm-12">
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-12">
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </div>
-                </div>
-            </form>
-            <article class="col-sm-4">
-                <article class="col-sm-12"><img class="col-sm-12" src="Images/pepsi-max.jpg"></article>
-                <p>If you decided to send me an email in an attempt to hire me to remember that. I demand a salary of 10
-                    bottles of Pepsi every hours</p>
-            </article>
-        </section>
-    </main>
+                                        Java specializing in mobile system development for apps for Android and web design.
+                                        <br><br></p>
+                                    <p>
+                                        Currently I study. Java, Javascript and MySQL
+                                        With a focus within more complex system development.
+                                        <br><br></p>
+                                    <p>
+                                        I also have some knowledge with Windows server with Active directory and manage
+                                        simple web servers with Xampp and on Debian and widnwos 7 & 10.
+                                        <br><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
-    <footer class="jumbotron text-center" style="margin-bottom:0">
-        <p>Footer</p>
-    </footer>
+                    <section class="container content-section text-center" style="margin-top:15px">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="skill-bar-wrapper">
+                                    <hr class="col-sm-12">
+                                    <h2 class="col-sm-12">My languages</h2>
+                                    <hr class="col-sm-12">
+                                    <div class="skill-bar-text-left">
 
-</body>
+                                        <!-- Java -->
+                                        Java<span style="float:right;">30%</span>
+                                        <div class="skillbar-container clearfix" data-percent="30%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- JavaScript -->
+                                        JavaScript<span style="float:right;">30%</span>
+                                        <div class="skillbar-container clearfix" data-percent="30%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- Mysql -->
+                                        Mysql<span style="float:right;">30%</span>
+                                        <div class="skillbar-container clearfix" data-percent="30%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- Php -->
+                                        Php<span style="float:right;">25%</span>
+                                        <div class="skillbar-container clearfix" data-percent="25%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- HTML5 -->
+                                        HTML5<span style="float:right;">75%</span>
+                                        <div class="skillbar-container clearfix" data-percent="75%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- Css -->
+                                        Css<span style="float:right;">45%</span>
+                                        <div class="skillbar-container clearfix" data-percent="45%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- jQuery -->
+                                        jQuery<span style="float:right;">10%</span>
+                                        <div class="skillbar-container clearfix" data-percent="10%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- jQuery -->
+                                        Ruby on rails<span style="float:right;">7%</span>
+                                        <div class="skillbar-container clearfix" data-percent="7%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                        <!-- Git -->
+                                        Git<span style="float:right;">5%</span>
+                                        <div class="skillbar-container clearfix" data-percent="5%">
+                                            <div class="skills skillbar-background"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </section>
+
+            <section id="about" class="about row col-sm-12">
+                <hr class="col-sm-12">
+                <h2 class="col-sm-12">About Me</h2>
+                <hr class="col-sm-12">
+                <article class="col-sm-4">
+                    <h5 class="col-sm-12">Photo:</h5>
+                    <article class="col-sm-12"><img class="col-sm-12" src="Images/Daniel-Henriksen.jpg"></article>
+                    <p class="col-sm-12">24-year old programer with an addiction of pepsi max soda.</p>
+                    <h3 class="col-sm-12">Some Links</h3>
+                    <p class="col-sm-12">Lorem ipsum dolor sit ame.</p>
+                    <ul class="nav nav-pills flex-column col-sm-12">
+                        <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com">Linkdin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/">Github</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://codepen.io/">Codepen</a></li>
+                    </ul>
+                    <hr class="d-sm-none">
+                </article>
+
+                <article class="col-sm-8">
+                    <h5>Linkedin</h5>
+                    <p>LinkedIn is a business and employment-oriented service that operates via websites and mobile apps.
+                        Founded on December 28, 2002,[4] and launched on May 5, 2003,[5] it is mainly used for professional
+                        networking, including employers posting jobs and job seekers posting their CVs.</p>
+                    <p>As of October 2018, LinkedIn had 590 million registered members in 200 countries, of which more than
+                        250 million are active.</p>
+                    <h5>Company overview</h5>
+                    <p>LinkedIn is headquartered in Sunnyvale, California, with offices in Omaha, Chicago, Los Angeles, New
+                        York, San Francisco, Washington, D.C., São Paulo, London, Dublin, Amsterdam, Milan, Paris, Munich,
+                        Madrid, Stockholm, Singapore, Hong Kong, China, Japan, Australia, Canada, India and Dubai. In
+                        January 2016, the company had around 9,200 employees.</p>
+                    <h5>Founding</h5>
+                    <p>he company was founded in December 2002 by Reid Hoffman and founding team members from PayPal and
+                        Socialnet.com (Allen Blue, Eric Ly, Jean-Luc Vaillant, Lee Hower, Konstantin Guericke, Stephen
+                        Beitzel, David Eves, Ian McNish, Yan Pujante, Chris Saccheri).[19] In late 2003, Sequoia Capital led
+                        the Series A investment in the company.[20] In August 2004, LinkedIn reached 1 million users.[21] In
+                        March 2006, LinkedIn achieved its first month of profitability.</p>
+                    <h5>User reaction</h5>
+                    <p>Following the launch of the new interface, some users, including blogger Zubair Abbas, complained
+                        about the missing features which were there in the older version, slowness and bugs in the UI.[129]
+                        The issues were faced by both free and premium users, and with both the desktop version and the
+                        mobile version of the site.</p>
+                    <p></p>
+                </article>
+            </section>
+
+            <section id="contact" class="contact row col-sm-12">
+                <hr class="col-sm-12">
+                <h2 class="col-sm-12">Contact Me</h2>
+                <hr class="col-sm-12">
+                <form class="contact-form col-sm-8">
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="fname">First Name:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="email">Email:</label>
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-6" for="comment">Comment:</label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-12">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <article class="col-sm-4">
+                    <article class="col-sm-12"><img class="col-sm-12" src="Images/pepsi-max.jpg"></article>
+                    <p>If you decided to send me an email in an attempt to hire me to remember that. I demand a salary of 10
+                        bottles of Pepsi every hours</p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="jumbotron text-center" style="margin-bottom:0">
+            <p>Footer</p>
+        </footer>
+
+    </body>
 
 </html>
