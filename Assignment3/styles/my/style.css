@@ -9,6 +9,26 @@ p {
 
 }
 
+.nav-logo  {
+    width: 25%;
+    height: 25%;
+}
+
+.footer-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.form-center {
+  margin-left: 25%;
+  margin-right: 25%;
+ 
+}
+
+.view-img {
+  background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg");
+}
+
 .skillbar-container {
   position:relative;
   display:block;
@@ -89,3 +109,12 @@ h2 {
   margin-left: 0px;
 
 }
+
+
+
+
+
+
+
+
+

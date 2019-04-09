@@ -1,322 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Bootstrap 4 Website Example</title>
+<head>
+    <title>Bootstrap 4 Website Example</title>
 
-        <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
-        <!-- My CSS Styles -->
-        <link rel="stylesheet" href="styles/my/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- minified bootstrap CSS -->
-        <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
+    <!-- My CSS Styles -->
+    <link rel="stylesheet" href="styles/my/style.css" />
 
-        <!-- minified jQuery library -->
-        <script src="script/js/jquery/jquery.min.js"></script>
+    <!-- minified bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
 
-        <!-- minified bootstrap JavaScript -->
-        <script src="script/js/bootstrap/bootstrap.min.js"></script>
+    <!-- font CSS bootstrap 4 dont have glyphicon nativ and i dont want to pay for the licence so i am using fontawesom.com -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-        <!-- minified bootstrap JavaScript -->
-        <script src="script/js/my/script.js"></script>
+    <!-- minified jQuery library -->
+    <script src="script/js/jquery/jquery.min.js"></script>
 
-        <!-- minified Popper JS -->
-        <script src="script/js/popper/popper.min.js"></script>
-    </head>
-    
-    <body>
-        <header>
-                <!--Carousel Wrapper-->
-                <div id="MyCarousel" class="MyCarousel carousel slide carousel-fade" data-ride="carousel">
-                  <!--Indicators-->
-                  <ol class="carousel-indicators">
-                    <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#MyCarousel" data-slide-to="1"></li>
-                    <li data-target="#MyCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <!--/.Indicators-->
-                  <!--Slides-->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                      <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+    <!-- minified bootstrap JavaScript -->
+    <script src="script/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- minified bootstrap JavaScript -->
+    <script src="script/js/my/script.js"></script>
+
+    <!-- minified Popper JS -->
+    <script src="script/js/popper/popper.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="MyCarousel" class="MyCarousel carousel slide carousel-fade" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#MyCarousel" data-slide-to="2" class="active"></li>
+                <li data-target="#MyCarousel" data-slide-to="2"></li>
+                <li data-target="#MyCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                            alt="First slide">
                         <div class="mask rgba-black-light"></div>
-                      </div>
-                      <div class="carousel-caption">
+                    </div>
+                    <div class="carousel-caption">
                         <h3 class="h3-responsive">Light mask</h3>
                         <p>First text</p>
-                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <!--Mask color-->
-                      <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                </div>
+
+                <div class="carousel-item">
+                    <div class="view">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                            alt="Second slide">
                         <div class="mask rgba-black-strong"></div>
-                      </div>
-                      <div class="carousel-caption">
+                    </div>
+                    <div class="carousel-caption">
                         <h3 class="h3-responsive">Strong mask</h3>
                         <p>Secondary text</p>
-                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <!--Mask color-->
-                      <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                </div>
+
+                <div class="carousel-item">
+                    <div class="view view-img">
+                        
+                        <form class="contact-form col-sm-6 form-center">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-6" for="fname">First Name:</label>
+                                    <div class="col-sm-12">
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                                    <div class="col-sm-12">
+                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                            name="lname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-6" for="email">Email:</label>
+                                    <div class="col-sm-12">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                            name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-6" for="comment">Comment:</label>
+                                    <div class="col-sm-12">
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group row">
+                                        <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button>
+                                        </div>
+                                        <div class="col-sm-8"></div>
+                                        <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </form>
                         <div class="mask rgba-black-slight"></div>
-                      </div>
-                      <div class="carousel-caption">
+                    </div>
+                    <div class="carousel-caption">
                         <h3 class="h3-responsive">Slight mask</h3>
                         <p>Third text</p>
-                      </div>
                     </div>
-                  </div>
-                  <!--/.Slides-->
-                  <!--Controls-->
-                  <a class="carousel-control-prev" href="#MyCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#MyCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                  <!--/.Controls-->
                 </div>
-                <!--/.Carousel Wrapper-->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a class="navbar-brand" href="#MyCarousel">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+            </div>
+            <a class="carousel-control-prev" href="#MyCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#MyCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="Images/logo/logo.png" alt="Portfolio">
+                    <span class="sr-only">(current)</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#container">Home</a></li>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#container">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#knowledged">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
-            </nav>
-        </header>
-
-        <main id="container" class="container col-sm-12" style="margin-top:30px">
+            </div>
+        </nav>
 
 
-            <section class="showcase row col-sm-12">
-                <hr class="col-sm-12">
-                <h2 class="col-sm-12">Home</h2>
-                <hr class="col-sm-12">
-                <article class="col-sm-4"><img class="img-showcase" src="Images/frontend-developer.png"></article>
-                <article class="col-sm-4"><img class="img-showcase" src="Images/git-flow.png"></article>
-                <article class="col-sm-4"><img class="img-showcase" src="Images/backend-developer.png"></article>
-            </section>
 
-            <section id="knowledged" class="knowledged row col-sm-12">
-                <article class="col-sm-12" style="margin-top:30px">
-                    
+    </header>
+
+    <main id="container" class="container col-sm-12" style="margin-top:30px">
 
 
-                    <section class="container content-section text-center" style="margin-top:15px">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <hr class="col-sm-12">
-                                <h2 class="col-sm-12">My Skills</h2>
-                                <hr class="col-sm-12">
-                                <div class="text-left">
-                                    <p>
-                                        My skills is based on what is in demand in the job market.
+        <section class="showcase row col-sm-12">
+            <hr class="col-sm-12">
+            <h2 class="col-sm-12">Home</h2>
+            <hr class="col-sm-12">
+            <article class="col-sm-4"><img class="img-showcase" src="Images/frontend-developer.png"></article>
+            <article class="col-sm-4"><img class="img-showcase" src="Images/git-flow.png"></article>
+            <article class="col-sm-4"><img class="img-showcase" src="Images/backend-developer.png"></article>
+        </section>
 
-                                        I have already studied agile project methodology, Html5, Css3, Php, MySQL and
+        <section id="knowledged" class="knowledged row col-sm-12">
+            <article class="col-sm-12" style="margin-top:30px">
 
-                                        Java specializing in mobile system development for apps for Android and web design.
-                                        <br><br></p>
-                                    <p>
-                                        Currently I study. Java, Javascript and MySQL
-                                        With a focus within more complex system development.
-                                        <br><br></p>
-                                    <p>
-                                        I also have some knowledge with Windows server with Active directory and manage
-                                        simple web servers with Xampp and on Debian and widnwos 7 & 10.
-                                        <br><br></p>
-                                </div>
+
+
+                <section class="container content-section text-center" style="margin-top:15px">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hr class="col-sm-12">
+                            <h2 class="col-sm-12">My Skills</h2>
+                            <hr class="col-sm-12">
+                            <div class="text-left">
+                                <p>
+                                    My skills is based on what is in demand in the job market.
+
+                                    I have already studied agile project methodology, Html5, Css3, Php, MySQL and
+
+                                    Java specializing in mobile system development for apps for Android and web design.
+                                    <br><br></p>
+                                <p>
+                                    Currently I study. Java, Javascript and MySQL
+                                    With a focus within more complex system development.
+                                    <br><br></p>
+                                <p>
+                                    I also have some knowledge with Windows server with Active directory and manage
+                                    simple web servers with Xampp and on Debian and widnwos 7 & 10.
+                                    <br><br></p>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
 
-                    <section class="container content-section text-center" style="margin-top:15px">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div id="skill-bar-wrapper">
-                                    <hr class="col-sm-12">
-                                    <h2 class="col-sm-12">My languages</h2>
-                                    <hr class="col-sm-12">
-                                    <div class="skill-bar-text-left">
+                <section class="container content-section text-center" style="margin-top:15px">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="skill-bar-wrapper">
+                                <hr class="col-sm-12">
+                                <h2 class="col-sm-12">My languages</h2>
+                                <hr class="col-sm-12">
+                                <div class="skill-bar-text-left">
 
-                                        <!-- Java -->
-                                        Java<span style="float:right;">30%</span>
-                                        <div class="skillbar-container clearfix" data-percent="30%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- JavaScript -->
-                                        JavaScript<span style="float:right;">30%</span>
-                                        <div class="skillbar-container clearfix" data-percent="30%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- Mysql -->
-                                        Mysql<span style="float:right;">30%</span>
-                                        <div class="skillbar-container clearfix" data-percent="30%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- Php -->
-                                        Php<span style="float:right;">25%</span>
-                                        <div class="skillbar-container clearfix" data-percent="25%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- HTML5 -->
-                                        HTML5<span style="float:right;">75%</span>
-                                        <div class="skillbar-container clearfix" data-percent="75%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- Css -->
-                                        Css<span style="float:right;">45%</span>
-                                        <div class="skillbar-container clearfix" data-percent="45%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- jQuery -->
-                                        jQuery<span style="float:right;">10%</span>
-                                        <div class="skillbar-container clearfix" data-percent="10%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- jQuery -->
-                                        Ruby on rails<span style="float:right;">7%</span>
-                                        <div class="skillbar-container clearfix" data-percent="7%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
-                                        <!-- Git -->
-                                        Git<span style="float:right;">5%</span>
-                                        <div class="skillbar-container clearfix" data-percent="5%">
-                                            <div class="skills skillbar-background"></div>
-                                        </div>
-
+                                    <!-- Java -->
+                                    Java<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
                                     </div>
+
+                                    <!-- JavaScript -->
+                                    JavaScript<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Mysql -->
+                                    Mysql<span style="float:right;">30%</span>
+                                    <div class="skillbar-container clearfix" data-percent="30%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Php -->
+                                    Php<span style="float:right;">25%</span>
+                                    <div class="skillbar-container clearfix" data-percent="25%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- HTML5 -->
+                                    HTML5<span style="float:right;">75%</span>
+                                    <div class="skillbar-container clearfix" data-percent="75%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Css -->
+                                    Css<span style="float:right;">45%</span>
+                                    <div class="skillbar-container clearfix" data-percent="45%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- jQuery -->
+                                    jQuery<span style="float:right;">10%</span>
+                                    <div class="skillbar-container clearfix" data-percent="10%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- jQuery -->
+                                    Ruby on rails<span style="float:right;">7%</span>
+                                    <div class="skillbar-container clearfix" data-percent="7%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
+                                    <!-- Git -->
+                                    Git<span style="float:right;">5%</span>
+                                    <div class="skillbar-container clearfix" data-percent="5%">
+                                        <div class="skills skillbar-background"></div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </article>
-            </section>
-
-            <section id="about" class="about row col-sm-12">
-                <hr class="col-sm-12">
-                <h2 class="col-sm-12">About Me</h2>
-                <hr class="col-sm-12">
-                <article class="col-sm-4">
-                    <h5 class="col-sm-12">Photo:</h5>
-                    <article class="col-sm-12"><img class="col-sm-12" src="Images/Daniel-Henriksen.jpg"></article>
-                    <p class="col-sm-12">24-year old programer with an addiction of pepsi max soda.</p>
-                    <h3 class="col-sm-12">Some Links</h3>
-                    <p class="col-sm-12">Lorem ipsum dolor sit ame.</p>
-                    <ul class="nav nav-pills flex-column col-sm-12">
-                        <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com">Linkdin</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/">Github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://codepen.io/">Codepen</a></li>
-                    </ul>
-                    <hr class="d-sm-none">
-                </article>
-
-                <article class="col-sm-8">
-                    <h5>Linkedin</h5>
-                    <p>LinkedIn is a business and employment-oriented service that operates via websites and mobile apps.
-                        Founded on December 28, 2002,[4] and launched on May 5, 2003,[5] it is mainly used for professional
-                        networking, including employers posting jobs and job seekers posting their CVs.</p>
-                    <p>As of October 2018, LinkedIn had 590 million registered members in 200 countries, of which more than
-                        250 million are active.</p>
-                    <h5>Company overview</h5>
-                    <p>LinkedIn is headquartered in Sunnyvale, California, with offices in Omaha, Chicago, Los Angeles, New
-                        York, San Francisco, Washington, D.C., São Paulo, London, Dublin, Amsterdam, Milan, Paris, Munich,
-                        Madrid, Stockholm, Singapore, Hong Kong, China, Japan, Australia, Canada, India and Dubai. In
-                        January 2016, the company had around 9,200 employees.</p>
-                    <h5>Founding</h5>
-                    <p>he company was founded in December 2002 by Reid Hoffman and founding team members from PayPal and
-                        Socialnet.com (Allen Blue, Eric Ly, Jean-Luc Vaillant, Lee Hower, Konstantin Guericke, Stephen
-                        Beitzel, David Eves, Ian McNish, Yan Pujante, Chris Saccheri).[19] In late 2003, Sequoia Capital led
-                        the Series A investment in the company.[20] In August 2004, LinkedIn reached 1 million users.[21] In
-                        March 2006, LinkedIn achieved its first month of profitability.</p>
-                    <h5>User reaction</h5>
-                    <p>Following the launch of the new interface, some users, including blogger Zubair Abbas, complained
-                        about the missing features which were there in the older version, slowness and bugs in the UI.[129]
-                        The issues were faced by both free and premium users, and with both the desktop version and the
-                        mobile version of the site.</p>
-                    <p></p>
-                </article>
-            </section>
-
-            <section id="contact" class="contact row col-sm-12">
-                <hr class="col-sm-12">
-                <h2 class="col-sm-12">Contact Me</h2>
-                <hr class="col-sm-12">
-                <form class="contact-form col-sm-8">
-                    <div class="form-group">
-                        <label class="control-label col-sm-6" for="fname">First Name:</label>
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-                        </div>
                     </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-6" for="lname">Last Name:</label>
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-6" for="email">Email:</label>
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-6" for="comment">Comment:</label>
-                        <div class="col-sm-12">
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                        </div>
-                    </div>
+                </section>
+            </article>
+        </section>
 
-                    <div class="form-group">
-                        <div class="form-group row">
-                            <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button></div>
-                            <div class="col-sm-8"></div>
-                            <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button></div>
-                        </div>
+        <section id="about" class="about row col-sm-12">
+            <hr class="col-sm-12">
+            <h2 class="col-sm-12">About Me</h2>
+            <hr class="col-sm-12">
+            <article class="col-sm-4">
+                <h5 class="col-sm-12">Photo:</h5>
+                <article class="col-sm-12"><img class="col-sm-12" src="Images/Daniel-Henriksen.jpg"></article>
+                <p class="col-sm-12">24-year old programer with an addiction of pepsi max soda.</p>
+                <h3 class="col-sm-12">Some Links</h3>
+                <p class="col-sm-12">Lorem ipsum dolor sit ame.</p>
+                <ul class="nav nav-pills flex-column col-sm-12">
+                    <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com">Linkdin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/">Github</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://codepen.io/">Codepen</a></li>
+                </ul>
+                <hr class="d-sm-none">
+            </article>
+
+            <article class="col-sm-8">
+                <h5>Linkedin</h5>
+                <p>LinkedIn is a business and employment-oriented service that operates via websites and mobile apps.
+                    Founded on December 28, 2002,[4] and launched on May 5, 2003,[5] it is mainly used for professional
+                    networking, including employers posting jobs and job seekers posting their CVs.</p>
+                <p>As of October 2018, LinkedIn had 590 million registered members in 200 countries, of which more than
+                    250 million are active.</p>
+                <h5>Company overview</h5>
+                <p>LinkedIn is headquartered in Sunnyvale, California, with offices in Omaha, Chicago, Los Angeles, New
+                    York, San Francisco, Washington, D.C., São Paulo, London, Dublin, Amsterdam, Milan, Paris, Munich,
+                    Madrid, Stockholm, Singapore, Hong Kong, China, Japan, Australia, Canada, India and Dubai. In
+                    January 2016, the company had around 9,200 employees.</p>
+                <h5>Founding</h5>
+                <p>he company was founded in December 2002 by Reid Hoffman and founding team members from PayPal and
+                    Socialnet.com (Allen Blue, Eric Ly, Jean-Luc Vaillant, Lee Hower, Konstantin Guericke, Stephen
+                    Beitzel, David Eves, Ian McNish, Yan Pujante, Chris Saccheri).[19] In late 2003, Sequoia Capital led
+                    the Series A investment in the company.[20] In August 2004, LinkedIn reached 1 million users.[21] In
+                    March 2006, LinkedIn achieved its first month of profitability.</p>
+                <h5>User reaction</h5>
+                <p>Following the launch of the new interface, some users, including blogger Zubair Abbas, complained
+                    about the missing features which were there in the older version, slowness and bugs in the UI.[129]
+                    The issues were faced by both free and premium users, and with both the desktop version and the
+                    mobile version of the site.</p>
+                <p></p>
+            </article>
+        </section>
+
+        <section id="contact" class="contact row col-sm-12">
+            <hr class="col-sm-12">
+            <h2 class="col-sm-12">Contact Me</h2>
+            <hr class="col-sm-12">
+            <form class="contact-form col-sm-8">
+                <div class="form-group">
+                    <label class="control-label col-sm-6" for="fname">First Name:</label>
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
                     </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-6" for="email">Email:</label>
+                    <div class="col-sm-12">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-6" for="comment">Comment:</label>
+                    <div class="col-sm-12">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                </div>
 
-                </form>
-                <article class="col-sm-4">
-                    <article class="col-sm-12"><img class="col-sm-12" src="Images/pepsi-max.jpg"></article>
-                    <p>If you decided to send me an email in an attempt to hire me to remember that. I demand a salary of 10
-                        bottles of Pepsi every hours</p>
-                </article>
-            </section>
-        </main>
+                <div class="form-group">
+                    <div class="form-group row">
+                        <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button></div>
+                        <div class="col-sm-8"></div>
+                        <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button></div>
+                    </div>
+                </div>
 
-<!-- Footer -->
+            </form>
+            <article class="col-sm-4">
+                <article class="col-sm-12"><img class="col-sm-12" src="Images/pepsi-max.jpg"></article>
+                <p>If you decided to send me an email in an attempt to hire me to remember that. I demand a salary of 10
+                    bottles of Pepsi every hours</p>
+                <i class="far fa-copyright"></i>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
         <div class="footer-copyright text-center py-3">
-            <a class="col-sm-4" href="https://en.wikipedia.org/wiki/Copyright"><label class="control-label "> © 2019 Copyright</label></a>
-            <a class="col-sm-4" href="daniel.henriksen1994work@gmail.coml"><label class="control-label ">Daniel.henriksen1994work@gmail.com</label></a> 
-            <a class="col-sm-4" href="MyCarousel"><label class="control-label">Portfolio</label></a> 
+            <a class="col-sm-4" href="https://en.wikipedia.org/wiki/Copyright"> <i class="far fa-copyright"></i> <label
+                    class="control-label "> 2019 Copyright</label></a>
+            <a class="col-sm-4" href="MyCarousel"><img class="footer-logo" src="Images/logo/logo.png"
+                    alt="Portfolio"></a>
+            <a class="col-sm-4" href="daniel.henriksen1994work@gmail.coml"><label
+                    class="control-label ">Daniel.henriksen1994work@gmail.com</label></a>
         </div>
     </footer>
-    </body>
+</body>
 
 </html>
