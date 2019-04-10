@@ -1,12 +1,5 @@
-body {
-
-}
-
-h1 {
-}
-
 p {
-
+  font-family: "Times New Roman", Times, serif;
 }
 
 .nav-logo  {
@@ -22,12 +15,32 @@ p {
 .form-center {
   margin-left: 25%;
   margin-right: 25%;
- 
 }
 
-.view-img {
-  background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg");
+.item1-background {background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg");
+  /* The image used */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 670.46px;
+  margin-bottom: -2%;
 }
+.item2-background {background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(7).jpg");
+    /* The image used */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 670.46px;
+    margin-bottom: -2%;
+  }
+.item3-background {background: url("https://mdbootstrap.com/img/Photos/Slides/img%20(30).jpg");
+    /* The image used */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 670.46px;
+    margin-bottom: -2%;
+  }
 
 .skillbar-container {
   position:relative;
@@ -57,7 +70,6 @@ p {
   .container {
     max-width: 100%;
   }
-
   .row {
     max-width: 100%;
     margin-left: 0px !important;
@@ -87,11 +99,6 @@ h2 {
   text-align: center;
 }
 
-
-.showcase {
-
-}
-
 .knowledged {
   font-weight: bold;
 }
@@ -107,7 +114,6 @@ h2 {
 
 .row {
   margin-left: 0px;
-
 }
 
 

@@ -14,7 +14,7 @@
     <!-- minified bootstrap CSS -->
     <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css" />
 
-    <!-- font CSS bootstrap 4 dont have glyphicon nativ and i dont want to pay for the licence so i am using fontawesom.com -->
+    <!-- font CSS bootstrap 4 dont have glyphicon nativ so i am using fontawesom.com -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -33,79 +33,146 @@
 
 <body>
     <header>
-        <div id="MyCarousel" class="MyCarousel carousel slide carousel-fade" data-ride="carousel">
-
+        <div id="MyCarousel" class="testMyCarousel carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#MyCarousel" data-slide-to="2" class="active"></li>
-                <li data-target="#MyCarousel" data-slide-to="2"></li>
+                <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#MyCarousel" data-slide-to="1"></li>
                 <li data-target="#MyCarousel" data-slide-to="2"></li>
             </ol>
 
             <div class="carousel-inner" role="listbox">
-
                 <div class="carousel-item active">
-                    <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                            alt="First slide">
-                        <div class="mask rgba-black-light"></div>
+                    <div class="view item1-background d-block w-100">
+                        <form class="contact-form col-sm-6 form-center">
+                            <div class="form-group">
+                                                <label class="control-label col-sm-6" for="fname">First Name:</label>
+                                                <div class="col-sm-12">
+                                                    <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                                </div>
+                            </div>
+                            <div class="form-group">
+                                                <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                                                <div class="col-sm-12">
+                                                    <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                                        name="lname">
+                                                </div>
+                            </div>
+                            <div class="form-group">
+                                                <label class="control-label col-sm-6" for="email">Email:</label>
+                                                <div class="col-sm-12">
+                                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                                        name="email">
+                                                </div>
+                            </div>
+                            <div class="form-group">
+                                                <label class="control-label col-sm-6" for="comment">Comment:</label>
+                                                <div class="col-sm-12">
+                                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                                </div>
+                            </div>
+                            <div class="form-group">
+                                                <div class="form-group row">
+                                                    <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button>
+                                                    </div>
+                                                    <div class="col-sm-8"></div>
+                                                    <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button>
+                                                    </div>
+                                                </div>
+                            </div>
+                        </form>
+                        <div class="mask rgba-black-slight"></div>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3-responsive">Light mask</h3>
+                        <h3 class="h3-responsive">First item</h3>
                         <p>First text</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="view">
-                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-                            alt="Second slide">
-                        <div class="mask rgba-black-strong"></div>
+                    <div class="view item2-background d-block w-100">
+                            <form class="contact-form col-sm-6 form-center">
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-6" for="fname">First Name:</label>
+                                            <div class="col-sm-12">
+                                                <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                                            <div class="col-sm-12">
+                                                <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                                    name="lname">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-6" for="email">Email:</label>
+                                            <div class="col-sm-12">
+                                                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                                    name="email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-6" for="comment">Comment:</label>
+                                            <div class="col-sm-12">
+                                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-group row">
+                                                <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button>
+                                                </div>
+                                                <div class="col-sm-8"></div>
+                                                <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </form>
+                            <div class="mask rgba-black-slight"></div>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3-responsive">Strong mask</h3>
+                        <h3 class="h3-responsive">Secondary item</h3>
                         <p>Secondary text</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <div class="view view-img">
-                        
+                    <div class="view item3-background d-block w-100">
                         <form class="contact-form col-sm-6 form-center">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-6" for="fname">First Name:</label>
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-6" for="lname">Last Name:</label>
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
-                                            name="lname">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-6" for="email">Email:</label>
-                                    <div class="col-sm-12">
-                                        <input type="email" class="form-control" id="email" placeholder="Enter email"
-                                            name="email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-6" for="comment">Comment:</label>
-                                    <div class="col-sm-12">
-                                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-group row">
-                                        <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button>
-                                        </div>
-                                        <div class="col-sm-8"></div>
-                                        <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-6" for="fname">First Name:</label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-6" for="lname">Last Name:</label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                                name="lname">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-6" for="email">Email:</label>
+                                        <div class="col-sm-12">
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                                name="email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-6" for="comment">Comment:</label>
+                                        <div class="col-sm-12">
+                                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group row">
+                                            <div class="col-sm-2"><button type="submit" class="btn btn-success">Submit</button>
+                                            </div>
+                                            <div class="col-sm-8"></div>
+                                            <div class="col-sm-2"><button type="Reset" class="btn btn-danger">Reset</button>
+                                            </div>
+                                        </div>
+                                    </div>
                         </form>
                         <div class="mask rgba-black-slight"></div>
                     </div>
